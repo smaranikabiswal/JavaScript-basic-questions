@@ -17,7 +17,7 @@ while (true) {
         todo.push(task);
         console.log("task added");
 }else if(req=="delete"){
-   let idx=prompt("please enter the task you want me to add"); 
+   let idx=prompt("please enter the task you want me delete"); 
    todo.splice(idx,1); 
    console.log("task deleted");
 }
